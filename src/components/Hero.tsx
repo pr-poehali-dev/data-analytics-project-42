@@ -145,7 +145,12 @@ export function Hero() {
           >
             {"ТвояДверь"}
             <br />
-            <span className="text-orange-200">{"для вашего дома"}</span>
+            <span
+              className="text-orange-200 block"
+              style={{ fontFamily: "'Cormorant Garamond', serif", fontStyle: "italic", fontWeight: 300, letterSpacing: "0.01em", lineHeight: 1.1 }}
+            >
+              {"Не просто дверь. А твоя история"}
+            </span>
           </h1>
         </div>
       </div>
