@@ -120,8 +120,8 @@ export function Hero() {
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hously-background.png"
-          alt="Минималистичный архитектурный интерьер"
+          src="https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/3e21357f-ea0f-4b8e-b637-444cdecf51f9.jpg"
+          alt="Элегантная дверь в современном интерьере"
           className="w-full h-full object-cover object-center"
         />
       </div>
@@ -137,17 +137,22 @@ export function Hero() {
         }}
       >
         <div className="mb-72 md:mb-60 lg:mb-80">
-          <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-0">{"Салон дверей"}</p>
+          <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-4">{"Салон дверей"}</p>
 
           <h1
             ref={titleRef}
-            className="text-7xl font-medium text-balance text-center text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl"
+            className="text-balance text-center text-white mb-0"
+            style={{ fontFamily: "'Cormorant Garamond', serif" }}
           >
-            {"ТвояДверь"}
-            <br />
+            <span
+              className="block"
+              style={{ fontSize: "clamp(4rem, 12vw, 9rem)", fontWeight: 600, letterSpacing: "-0.02em", lineHeight: 0.95 }}
+            >
+              {"ТвояДверь"}
+            </span>
             <span
               className="text-orange-200 block"
-              style={{ fontFamily: "'Cormorant Garamond', serif", fontStyle: "italic", fontWeight: 300, letterSpacing: "0.01em", lineHeight: 1.1 }}
+              style={{ fontSize: "clamp(1.6rem, 4.5vw, 3.5rem)", fontStyle: "italic", fontWeight: 300, letterSpacing: "0.02em", lineHeight: 1.4, marginTop: "0.4em" }}
             >
               {"Не просто дверь. А твоя история"}
             </span>
