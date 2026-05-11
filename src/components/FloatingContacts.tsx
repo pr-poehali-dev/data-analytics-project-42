@@ -66,7 +66,7 @@ export function FloatingContacts() {
         className={`w-14 h-14 rounded-full shadow-xl flex items-center justify-center transition-all duration-300 ${
           expanded
             ? "bg-foreground text-white rotate-45"
-            : "bg-orange-500 hover:bg-orange-400 text-white"
+            : "bg-[#3d6e52] hover:bg-[#4d8a67] text-white"
         }`}
         aria-label="Связаться с нами"
       >

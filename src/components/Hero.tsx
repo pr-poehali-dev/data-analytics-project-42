@@ -120,8 +120,8 @@ export function Hero() {
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/3e21357f-ea0f-4b8e-b637-444cdecf51f9.jpg"
-          alt="Элегантная дверь в современном интерьере"
+          src="https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/93f6f19e-14d8-488c-8224-e6c1ca3029a6.jpg"
+          alt="Роскошный интерьер с элегантной дверью"
           className="w-full h-full object-cover object-center"
         />
       </div>
@@ -142,17 +142,17 @@ export function Hero() {
           <h1
             ref={titleRef}
             className="text-balance text-center text-white mb-0"
-            style={{ fontFamily: "'Cormorant Garamond', serif" }}
+            style={{ fontFamily: "'Playfair Display', serif" }}
           >
             <span
               className="block"
-              style={{ fontSize: "clamp(4rem, 12vw, 9rem)", fontWeight: 600, letterSpacing: "-0.02em", lineHeight: 0.95 }}
+              style={{ fontSize: "clamp(4rem, 12vw, 9rem)", fontWeight: 700, letterSpacing: "-0.02em", lineHeight: 0.95 }}
             >
               {"ТвояДверь"}
             </span>
             <span
-              className="text-orange-200 block"
-              style={{ fontSize: "clamp(1.6rem, 4.5vw, 3.5rem)", fontStyle: "italic", fontWeight: 300, letterSpacing: "0.02em", lineHeight: 1.4, marginTop: "0.4em" }}
+              className="block"
+              style={{ fontSize: "clamp(1.4rem, 3.8vw, 3rem)", fontStyle: "italic", fontWeight: 400, letterSpacing: "0.01em", lineHeight: 1.4, marginTop: "0.5em", color: "rgb(187 222 195)" }}
             >
               {"Не просто дверь. А твоя история"}
             </span>

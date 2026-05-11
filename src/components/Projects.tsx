@@ -8,7 +8,7 @@ const projects = [
     category: "Межкомнатные двери",
     location: "Серия Premium",
     year: "от 18 900 ₽",
-    image: "https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/77f942b1-2d9c-415c-9d80-06c4bebb5aad.jpg",
+    image: "https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/1ab19815-724a-4afc-b87b-d191f38aa75c.jpg",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const projects = [
     category: "Входные двери",
     location: "Серия Безопасность",
     year: "от 32 500 ₽",
-    image: "https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/22aa08e1-8cc4-451d-927f-b1c5f0249a0a.jpg",
+    image: "https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/3d0ba8b8-db46-4886-88b0-e8eb11d27f8c.jpg",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const projects = [
     category: "Межкомнатные двери",
     location: "Серия Modern",
     year: "от 24 700 ₽",
-    image: "https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/7738be25-53df-4afa-9d63-2b0c18a7d18f.jpg",
+    image: "https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/5b9c864f-87e9-4551-b5c3-3d5375a5e998.jpg",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const projects = [
     category: "Раздвижные двери",
     location: "Серия Glass",
     year: "от 41 000 ₽",
-    image: "https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/c0cd2676-8e1f-4b8c-90b4-46ddc022f3fd.jpg",
+    image: "https://cdn.poehali.dev/projects/91ab94b7-908b-4745-8080-a947d2398bf4/files/de586c27-0461-4d99-baa3-2684cdee34a6.jpg",
   },
 ]
 
@@ -112,7 +112,7 @@ export function Projects() {
                     {project.category} · {project.location} · <span className="text-foreground font-medium">{project.year}</span>
                   </p>
                 </div>
-                <a href="#contact" className="text-sm text-orange-400 hover:text-orange-500 transition-colors">Заказать →</a>
+                <a href="#contact" className="text-sm text-[#4d8a67] hover:text-[#3d6e52] transition-colors">Заказать →</a>
               </div>
             </article>
           ))}
