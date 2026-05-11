@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Качество без компромиссов",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Мы работаем только с проверенными производителями. Каждая дверь проходит контроль качества перед тем, как попасть к вам домой.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Широкий выбор",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Более 500 моделей дверей: входные, межкомнатные, раздвижные. Разные стили, материалы и цветовые решения для любого интерьера.",
   },
   {
-    title: "Естественная динамика",
+    title: "Профессиональный подбор",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Наши консультанты помогут подобрать дверь, идеально вписывающуюся в ваш интерьер — с учётом размеров, стиля и бюджета.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Установка под ключ",
+    description: "Профессиональные монтажники установят дверь в срок и с гарантией. Вы получаете готовый результат без лишних хлопот.",
   },
 ]
 
@@ -53,11 +53,11 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наш подход</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Двери с
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>характером</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Дверь — это первое впечатление о вашем доме. Мы помогаем создать его таким, каким вы хотите его видеть: надёжным, стильным и долговечным.
             </p>
 
             {philosophyItems.map((item, index) => (

@@ -1,30 +1,30 @@
 import { useEffect, useRef, useState } from "react"
-import { Home, Building, Armchair, Trees } from "lucide-react"
+import { DoorOpen, ShieldCheck, Truck, Wrench } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
 
 const expertiseAreas = [
   {
-    title: "Жилая архитектура",
-    description: "Создаем дома, которые сочетают красоту с комфортом, где каждое пространство служит и форме, и функции.",
-    icon: Home,
+    title: "Межкомнатные двери",
+    description: "Огромный выбор межкомнатных дверей: классика, лофт, минимализм. Подберём модель под любой стиль интерьера и бюджет.",
+    icon: DoorOpen,
   },
   {
-    title: "Коммерческие объекты",
+    title: "Входные двери",
     description:
-      "Проектируем рабочие пространства, которые вдохновляют на продуктивность и отражают ценности передовых организаций.",
-    icon: Building,
+      "Надёжные стальные двери с современными замками и утеплением. Защита и тепло для вашего дома круглый год.",
+    icon: ShieldCheck,
   },
   {
-    title: "Дизайн интерьеров",
+    title: "Доставка по городу",
     description:
-      "Создаем интерьеры, которые гармонируют с архитектурной оболочкой, формируя целостный пространственный опыт.",
-    icon: Armchair,
+      "Доставляем двери прямо до вашей квартиры. Аккуратно, в срок, без повреждений — берём на себя все заботы о логистике.",
+    icon: Truck,
   },
   {
-    title: "Градостроительство",
+    title: "Профессиональная установка",
     description:
-      "Формируем сообщества через продуманную интеграцию общественных пространств, зданий и природных элементов.",
-    icon: Trees,
+      "Опытные монтажники установят дверь за один визит. Гарантия на установку 2 года — работаем качественно и ответственно.",
+    icon: Wrench,
   },
 ]
 
@@ -59,12 +59,12 @@ export function Expertise() {
         <div className="max-w-3xl mb-20">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши услуги</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Экспертиза</HighlightedText>, отточенная
+            <HighlightedText>Всё</HighlightedText> для вашей
             <br />
-            практикой
+            идеальной двери
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Каждый проект опирается на десятилетия совокупного опыта, создавая архитектуру, которая одновременно инновационна и вневременна.
+            От выбора модели до профессиональной установки — мы сопровождаем вас на каждом шагу и гарантируем результат.
           </p>
         </div>
 
